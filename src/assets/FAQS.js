@@ -5,11 +5,11 @@ export const faqs = [
     },
     {
       question: "What payment methods do you accept?",
-      answer: "We accept various payment methods including credit/debit cards, PayPal, and bank transfers. You can choose your preferred payment method at the checkout page."
+      answer: "We accept various payment methods including credit/debit cards, PayPal, and bank transfers. You can choose your preferred payment method at shop."
     },
     {
       question: "How long does shipping take?",
-      answer: "Shipping times vary depending on your location and the items purchased. Typically, orders are processed and shipped within 1-3 business days. You can track your order using the provided tracking number."
+      answer: "Shipping times vary depending on your location and the items purchased. Typically, orders are processed and shipped within 2-3 business days. You can track your order using the provided tracking number."
     },
     {
       question: "Do you offer assembly services?",
@@ -17,7 +17,7 @@ export const faqs = [
     },
     {
       question: "What is your return policy?",
-      answer: "We offer a hassle-free 30-day return policy for most items. If you're not satisfied with your purchase, you can return it within 30 days for a full refund or exchange. Please review our return policy for detailed terms and conditions."
+      answer: "We offer a hassle-free 60-day return policy for most items. If you're not satisfied with your purchase, you can return it within 30 days for a full refund or exchange. Please review our return policy for detailed terms and conditions."
     },
     {
       question: "How can I track my order?",

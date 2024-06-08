@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 function ReviewCard({ name, rating, comment }) {
   return (
@@ -24,5 +25,11 @@ function ReviewCard({ name, rating, comment }) {
     </div>
   );
 }
+
+ReviewCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  rating: PropTypes.number.isRequired,
+  comment: PropTypes.string.isRequired,
+};
 
 export default ReviewCard;

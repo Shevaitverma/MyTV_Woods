@@ -73,8 +73,10 @@ function Homepage() {
 
           <div className="flex items-center space-x-4">
             <div className="text-blue-500">
-              {/* Replace 'icon' with actual icon element */}
-              <svg className="w-8 h-8" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h3.22c.29-.63.77-1.19 1.4-1.58A3.993 3.993 0 0114 2h6a1 1 0 011 1v18a1 1 0 01-1 1H4a1 1 0 01-1-1V4z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M9 12l2 2 4-4" />
+            </svg>
             </div>
             <div className="container-xs">
               <h3 className="text-xl font-semibold text-gray-900">Fast Shipping</h3>
@@ -86,11 +88,15 @@ function Homepage() {
 
           <div className="flex items-center space-x-4">
             <div className="text-blue-500">
-              {/* Replace 'icon' with actual icon element */}
-              <svg className="w-8 h-8" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h3.22c.29-.63.77-1.19 1.4-1.58A3.993 3.993 0 0114 2h6a1 1 0 011 1v18a1 1 0 01-1 1H4a1 1 0 01-1-1V4z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8">
+              <path d="M21 16V8a2 2 0 00-1-1.732l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.732l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" />
+              <path d="M3.27 6.96L12 12l8.73-5.04" />
+              <path d="M12 22.08V12" />
+            </svg>
+
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900">Track yuor package</h3>
+              <h3 className="text-xl font-semibold text-gray-900">Track your package</h3>
               <p className="text-gray-800">
               Stay informed with our real-time tracking system, allowing you to monitor your order every step of the way for peace of mind.
               </p>
@@ -98,8 +104,10 @@ function Homepage() {
           </div>
           <div className="flex items-center space-x-4">
             <div className="text-blue-500">
-              {/* Replace 'icon' with actual icon element */}
-              <svg className="w-8 h-8" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h3.22c.29-.63.77-1.19 1.4-1.58A3.993 3.993 0 0114 2h6a1 1 0 011 1v18a1 1 0 01-1 1H4a1 1 0 01-1-1V4z" /></svg>
+            <svg className="w-8 h-8" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M9 17l-5-5 5-5" />
+              <path d="M4 12h16v7" />
+            </svg>
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gray-900">60 Days Return</h3>
@@ -110,8 +118,11 @@ function Homepage() {
           </div>
           <div className="flex items-center space-x-4">
             <div className="text-blue-500">
-              {/* Replace 'icon' with actual icon element */}
-              <svg className="w-8 h-8" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h3.22c.29-.63.77-1.19 1.4-1.58A3.993 3.993 0 0114 2h6a1 1 0 011 1v18a1 1 0 01-1 1H4a1 1 0 01-1-1V4z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+            </svg>
+
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gray-900">24 Hours support</h3>
