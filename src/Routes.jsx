@@ -5,20 +5,18 @@ import NotFound from "./pages/NotFound";
 import App from "./App";
 import Contactus from "./pages/Contactus";
 import Aboutus from "./pages/Aboutus";
-import Blog from "./pages/Blog";
+import Shop from "./pages/Shop";
+import Policies from "./pages/Terms/Policies";
+import Conditions from "./pages/Terms/Conditions";
 
 const Routes = createBrowserRouter([
     {
-        path: "/",
+        path: "",
         element: <App />,
         children: [
             {
                 path: "homepage",
                 element: <Homepage />
-            },
-            {
-                path: "blog",
-                element: <Blog />
             },
             {
                 path: "contact",
@@ -35,6 +33,18 @@ const Routes = createBrowserRouter([
             {
                 path: "test",
                 element: <Test />
+            },
+            {
+                path: "shop",
+                element: <Shop />
+            },
+            {
+                path: "policies",
+                element: <Policies />
+            },
+            {
+                path: "terms",
+                element: <Conditions />
             }
         ]
     }

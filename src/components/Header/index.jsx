@@ -17,10 +17,10 @@ function Header() {
         </li>
         {/* Blog nav */}
         <li>
-          <NavLink to="/blog" className={({isActive})=>
+          <NavLink to="/shop" className={({isActive})=>
             `flex cursor-pointer items-center gap-2.5 ${isActive ? "text-orange" : "text-gray"} lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
           }>
-            Blog
+            Shop
           </NavLink>          
         </li>
         {/* About nav */}
