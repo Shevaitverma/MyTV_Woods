@@ -47,7 +47,8 @@ const Routes = createBrowserRouter([
                 element: <Conditions />
             }
         ]
-    },      
+    },
+    // comment this section when not in use      
     {
         path: "tv01",
         element: <Service />,     
