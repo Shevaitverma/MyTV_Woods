@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom"
 
 function Header() {
   return (
-    <div className="container-xs flex item-center justify-between gap-4 md:px-4 bg-[#ffffff]">
+    <div className="container-xs flex item-center justify-between gap-4 md:px-4 bg-[#f0eeec]">
       <Link to="/homepage">
       <img src="images/Logo_02.png" alt="logo" className="flex h-[140px] w-[220px] object-contain"/>
       </Link>

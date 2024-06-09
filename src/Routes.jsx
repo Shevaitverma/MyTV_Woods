@@ -1,5 +1,4 @@
 import { createBrowserRouter} from "react-router-dom";
-import Test from "./pages/Test";
 import Homepage from "./pages/Homepage";
 import NotFound from "./pages/NotFound";
 import App from "./App";
@@ -8,6 +7,8 @@ import Aboutus from "./pages/Aboutus";
 import Shop from "./pages/Shop";
 import Policies from "./pages/Terms/Policies";
 import Conditions from "./pages/Terms/Conditions";
+import Service from "./pages/TvService/service";
+import ConfirmationPage from "./pages/TvService/conformation";
 
 const Routes = createBrowserRouter([
     {
@@ -15,6 +16,9 @@ const Routes = createBrowserRouter([
         element: <App />,
         children: [
             {
+                path: "",
+                element: <Homepage />
+            },{
                 path: "homepage",
                 element: <Homepage />
             },
@@ -31,10 +35,6 @@ const Routes = createBrowserRouter([
                 element: <NotFound />
             },
             {
-                path: "test",
-                element: <Test />
-            },
-            {
                 path: "shop",
                 element: <Shop />
             },
@@ -47,6 +47,14 @@ const Routes = createBrowserRouter([
                 element: <Conditions />
             }
         ]
+    },      
+    {
+        path: "tv01",
+        element: <Service />,     
+    },
+    {
+        path: "confirmation",
+        element: <ConfirmationPage />
     }
 ])
 
