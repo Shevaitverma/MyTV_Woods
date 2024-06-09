@@ -69,7 +69,7 @@ function Contactus() {
               <textarea className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-message" rows="6" placeholder="Your message"></textarea>
             </div>
             <div className="w-full">
-              <Link to="/tv01">
+              <Link to="/">
               <button className="bg-gray-900 hover:bg-black text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
                 Send Message
               </button>
