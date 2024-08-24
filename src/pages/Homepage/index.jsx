@@ -19,7 +19,7 @@ function Homepage() {
               <span>corner of your house</span>
             </h3>
           </div><br />
-          <Link to="shop">
+          <Link to="/shop">
           <button
           type="button"
           className="rounded-[0px] bg-gray-900 px-6 py-3 text-sm font-semibold text-[#6c724f] shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
